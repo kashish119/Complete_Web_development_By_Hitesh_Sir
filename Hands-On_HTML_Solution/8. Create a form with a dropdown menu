@@ -1,0 +1,15 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Form with Dropdown</title>   
+</head>
+<body>
+    <form>
+        <select>
+            <option>India</option>
+            <option>Canada</option>
+            <option>UK</option>
+        </select>
+    </form>
+</body>
+</html>
