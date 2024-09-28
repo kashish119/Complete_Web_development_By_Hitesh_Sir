@@ -1,0 +1,9 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>change color of paragraph</title>   
+</head>
+<body>
+    <p style="color:blue;">Changing the color of a paragraph to blue</p>
+</body>
+</html>
