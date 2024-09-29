@@ -1,0 +1,17 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Border Radius</title>
+    <style>
+        .border{
+            border: 3px;
+            border-style: dashed;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="border">
+    </div>
+</body>
+</html>
