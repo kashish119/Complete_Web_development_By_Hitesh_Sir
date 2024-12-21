@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: beige; */
+    background: url('test.webp');
+    height: 100vh;
+    font-weight: 500;
+    /* background: linear-gradient(#F8F0FC, #D7DCED); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #434956;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.pricing-card{
+    padding: 40px;
+    border-radius: 15px;
+    background: #fff;
+    width: 310px;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.start{
+    color: #7C54D1;  
+}    
+.professional{
+    color: #C5458A;
+}
+p span{
+    font-weight: 700;
+}
+.card-1{
+    max-width: 330px;
+    /* lighten(#8EA7FF, 30%) */
+    box-shadow: 0 0 10px 8px rgba(142, 167, 255, 0.5);
+}
+.card-2{ 
+    max-width: 330px;
+    /* lighten(#FF70DF, 15%) */
+    box-shadow: 0 0 10px 8px rgba(255, 112, 223, 0.5);
+}
+ul{
+    list-style: none;
+    margin-top: 50px;
+}
+li{
+  font-size: 18;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  letter-spacing: 2px;
+}
+li span{
+    background-color: #85DB43;
+    border-radius: 50%;
+    padding: 5px;
+    color: #1c3d02;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle; 
+}
+.starter,
+.professional-btn{
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 16px;
+  letter-spacing: 2px;
+  background: none;
+  cursor: pointer;
+  border-radius: 15px;
+  max-width: 238px;
+  width: 100%;
+  margin: 30px auto;
+  transition: all 0.3s ease;
+}
+.starter{
+  border: 1px solid #7C54D1;
+  color: #7C54D1;
+}
+.starter:hover{
+    background-color: #7C54D1;
+    color: #fff;
+}
+.professional-btn{ 
+  border: none;
+  background-color: #C4458A;
+  color: #fff;
+} 
+.professional-btn:hover{
+    border: 1px solid #C4458A;
+    background: none;
+    color: #C4458A;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        height: auto;
+    }
+}
+@media screen and (max-width: 660px){
+    .container{
+        margin: 80px auto;
+        flex-direction: column;
+    }
+}
+
+/* card-1
+@media(max-width: 360px)
+width: 90%
+margin: auto
+
+card-2 
+@media(max-width: 360px)
+width: 90%
+margin: auto */
